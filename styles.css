@@ -1,0 +1,60 @@
+body {
+    background-color: #f8f9fa;
+  }
+
+  .container {
+    max-width: auto;
+    margin-top: 50px;
+  }
+
+  .input-field label {
+    font-weight: bold;
+  }
+
+  .input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.2s;
+  }
+
+  .input-field input:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  .analyze-button {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .analyze-button:hover {
+    background-color: #0069d9;
+  }
+
+  .result-message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .result-message.green {
+    color: green;
+  }
+
+  .result-message.red {
+    color: red;
+  }
